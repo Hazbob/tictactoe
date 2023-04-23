@@ -6,6 +6,7 @@ body {
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  background-image: linear-gradient(rgb(98, 0, 255), rgb(255, 255, 255));
 }
 
 #gameboard {
@@ -16,6 +17,14 @@ body {
   flex-wrap: wrap;
 }
 
+#info {
+  color: red;
+  height: 20px;
+  width: 300px;
+  border: 3px solid red;
+  border-radius: 10px;
+  text-align: center;
+}
 .square {
   width: 100px;
   height: 100px;
