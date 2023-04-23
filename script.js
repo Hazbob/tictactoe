@@ -67,6 +67,8 @@ function checkScore() {
         square.replaceWith(square.cloneNode(true))
       );
       return;
+
+      console.log("test push to second branch");
     }
   });
 }
