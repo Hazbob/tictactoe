@@ -70,5 +70,3 @@ function checkScore() {
     }
   });
 }
-
-console.log("first commit test");
