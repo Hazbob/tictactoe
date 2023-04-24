@@ -72,3 +72,12 @@ function checkScore() {
     }
   });
 }
+
+const resetGame = function () {
+  console.log("click working");
+  location.reload();
+};
+//to reset game need to remove all of the divs that were created
+//reset the info display to original;
+
+document.querySelector("#reset").addEventListener("click", resetGame);
